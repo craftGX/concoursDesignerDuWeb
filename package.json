@@ -1,0 +1,16 @@
+{
+  "name": "concoursdesignerduweb",
+  "version": "1.0.0",
+  "description": "je participe au concours organisé par le designer du web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"node-sass sass/main.scss style.css",
+    "watch":"node-sass sass/main.scss style.css -w"
+  },
+  "author": "craftGX",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
