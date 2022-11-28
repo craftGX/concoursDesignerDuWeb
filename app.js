@@ -1,4 +1,5 @@
-window.addEventListener('scroll',function(){
-    const header = document.querySelector("header");
-    header.classList.toggle("sticky",window.scrollY>0);
-})
+let toggle = document.querySelector(".toggle");
+let menu = document.querySelector(".menu");
+toggle.onclick=function(){
+    menu.classList.toggle("active");
+}
